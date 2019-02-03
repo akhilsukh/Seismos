@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/colortext"
+    android:layout_height="match_parent"
+    tools:context="com.akhilsukh01.earthquakepreparednessproject.IntroHome">
+
+
+    <RelativeLayout
+        android:id="@+id/homeS"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:drawableLeft="@drawable/ic_loco"
+                android:drawablePadding="4dp"
+                android:id="@+id/titleView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginBottom="6dp"
+                android:background="@color/color2"
+                android:gravity="center_vertical"
+                android:paddingTop="26dp"
+                android:paddingBottom="28dp"
+                android:paddingStart="46dp"
+                android:singleLine="false"
+                android:text="\t\tSeismos"
+                android:textAllCaps="true"
+                android:textColor="@color/colortext"
+                android:textSize="38sp" />
+
+
+            <!--<ScrollView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent">-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginBottom="2dp">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/mChecklist"
+                    style="@style/CardHome"
+                    app:cardBackgroundColor="@color/color2"
+                    app:cardCornerRadius="8dp" >
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Checklist"
+                        android:layout_gravity="center"
+                        android:padding="6dp"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                        android:textColor="@color/colortext"
+                        android:textSize="16dp"
+                        android:textStyle="bold"/>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/mInfo"
+                    style="@style/CardHome"
+                    app:cardBackgroundColor="@color/color2"
+                    app:cardCornerRadius="8dp" >
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Preparatory Information"
+                        android:layout_gravity="center"
+                        android:padding="6dp"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                        android:textColor="@color/colortext"
+                        android:textSize="16dp"
+                        android:textStyle="bold"/>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/mAlerts"
+                    style="@style/CardHome"
+                    app:cardBackgroundColor="@color/color2"
+                    app:cardCornerRadius="8dp">
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Earthquake Alerts"
+                        android:layout_gravity="center"
+                        android:padding="6dp"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                        android:textColor="@color/colortext"
+                        android:textSize="16dp"
+                        android:textStyle="bold"/>
+                </android.support.v7.widget.CardView>
+
+
+
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/mHistory"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="6dp"
+                    app:cardBackgroundColor="@color/color2"
+                    app:cardCornerRadius="8dp">
+
+                    <TableLayout
+                        android:id="@+id/mQuake"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="end"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="-8dp">
+
+                            <TextView
+                                android:id="@+id/Htitle"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="4dp"
+                                android:text="Location"
+                                android:layout_weight="1"
+                                android:textColor="@color/colortext"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+
+                            <TextView
+                                android:id="@+id/Mtitle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:text="Magnitude"
+                                android:layout_margin="4dp"
+                                android:gravity="end"
+                                android:textColor="@color/colortext"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+                        </TableRow>
+
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="6dp">
+
+                            <TextView
+                                android:id="@+id/locat1"
+                                android:text="Location1 ... LOADING"
+                                style="@style/SubLoc"/>
+
+
+                            <TextView
+                                android:id="@+id/mag1"
+                                android:text="0.0"
+                                style="@style/SubMag"/>
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:id="@+id/locat2"
+                                android:text="Location2 ... LOADING"
+                                style="@style/SubLoc"/>
+
+
+                            <TextView
+                                android:id="@+id/mag2"
+                                android:text="0.0"
+                                style="@style/SubMag"/>
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:id="@+id/locat3"
+                                android:text="Location3 ... LOADING"
+                                style="@style/SubLoc"/>
+
+                            <TextView
+                                android:id="@+id/mag3"
+                                android:text="0.0"
+                                style="@style/SubMag"/>
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:id="@+id/locat4"
+                                android:text="Location4 ... LOADING"
+                                style="@style/SubLoc"/>
+
+
+                            <TextView
+                                android:id="@+id/mag4"
+                                android:text="0.0"
+                                style="@style/SubMag"/>
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:id="@+id/locat5"
+                                android:text="Location5 ... LOADING"
+                                style="@style/SubLoc"/>
+
+
+                            <TextView
+                                android:id="@+id/mag5"
+                                android:text="0.0"
+                                style="@style/SubMag"/>
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:id="@+id/locat6"
+                                android:text="Location6 ... LOADING"
+                                style="@style/SubLoc"/>
+
+
+                            <TextView
+                                android:id="@+id/mag6"
+                                android:text="0.0"
+                                style="@style/SubMag"/>
+                        </TableRow>
+
+
+                    </TableLayout>
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+            <!--</ScrollView>-->
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/splash"
+        android:visibility="gone"
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:drawableLeft="@drawable/ic_loco"
+            android:drawablePadding="4dp"
+            android:id="@+id/titleViewS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="26dp"
+            android:layout_marginBottom="6dp"
+            android:background="@color/color2"
+            android:gravity="center_vertical"
+            android:paddingStart="46dp"
+            android:singleLine="false"
+            android:text="\t\tSeismos"
+            android:textAllCaps="true"
+            android:textColor="@color/colortext"
+            android:textSize="38sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

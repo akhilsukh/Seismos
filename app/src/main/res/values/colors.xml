@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#212121</color>-->
+    <color name="colorPrimary">#292D48</color>
+    <color name="colorPrimaryDark">#292D48</color>
+    <color name="colorPrimaryDark2">#434975</color>
+    <color name="colorPrimaryold">#3F51B5</color>
+    <color name="colorPrimaryDarkold">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBack">#c3d2eb</color>
+    <color name="color1">#337AB7</color>
+    <color name="color2">#292D48</color>
+    <color name="color3">#9b9da1</color>
+    <color name="color4">#98a8ba</color>
+    <color name="background">#EEEEEE</color>
+    <color name="backgroundcard">#EEEEEE</color>
+
+
+    <color name="cBlack">#000000</color>
+    <color name="colortext">#EEEEEE</color>
+</resources>

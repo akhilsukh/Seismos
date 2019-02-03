@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Seismos</string>
+    <string name="title_home">Home</string>
+    <string name="title_before">Before</string>
+    <string name="title_during">During</string>
+    <string name="title_after">After</string>
+    <string name="title_contact">Contact</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_del">del</string>
+
+    <string name="linkJimdo">
+        <a href="https://earthquakeap.jimdo.com/">earthquakeap.jimdo.com</a>
+    </string>
+
+    <string name="linkRed">
+        <a href="http://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/earthquake#Before">redcross.org</a>
+    </string>
+
+    <string name="linkFema">
+        <a href="https://www.fema.gov/earthquake-safety-home">fema.gov</a>
+    </string>
+
+    <string name="linkNatGeo">
+        <a href="https://www.nationalgeographic.com/environment/natural-disasters/earthquake-safety-tips/">nationalgeographic.com</a>
+    </string>
+
+    <string name="linkCountry">
+        <a href="https://www.earthquakecountry.org/sevensteps/">earthquakecountry.org</a>
+    </string>
+
+    <string name="afterpara1">If away from home, return only when authorities say it is safe to do so. Check yourself for injuries and get first aid, if necessary, before helping injured or trapped persons. After an earthquake, the disaster may continue. Expect and prepare for potential aftershocks, landslides or even a tsunami if you live on a coast. Each time you feel an aftershock, DROP, COVER and HOLD ON. Aftershocks frequently occur minutes, days, weeks and even months following an earthquake. Look for and extinguish small fires. Fire is the most common hazard after an earthquake.</string>
+    <string name="afterpara2">"If you are at home, look quickly for damage in and around your home and get everyone out if your home is unsafe. Listen to a portable, battery ­operated or hand ­crank radio for updated emergency information and instructions. Pay attention to how you and your loved ones are experiencing and handling stress. Promote emotional recovery by following these tips. Watch animals closely and keep them under your direct control. Help people who require additional assistance—infants, elderly people, those without transportation, large families who may need additional help in an emergency situation, people with disabilities, and the people who care for them. Be careful when driving after an earthquake and anticipate traffic light outages.</string>
+    <string name="afterpara3">Stay out of damaged buildings. Use extreme caution and examine walls, floors, doors, staircases and windows to check for damage. Watch out for fallen power lines or broken gas lines and report them to the utility company immediately. If you smell natural or propane gas or hear a hissing noise, leave immediately and call the fire department. Open closet and cabinet doors carefully as contents may have shifted. Follow these tips for inspecting your home’s structure and utilities and systems after an earthquake. Take pictures of home damage, both of the buildings and its contents, for insurance purposes."</string>
+    <string name="afterpara4">Wear protective clothing, including long pants, a long-sleeved shirt and sturdy shoes, and be cautious. Clean up spilled medications, bleach, gasoline or other flammable liquids immediately. Learn about your area’s seismic building standards and land use codes before you begin any construction. Follow our tips on preparing your home for an earthquake. Learn more about how to clean up after an earthquake, including the supplies you’ll need and how to handle fire hazards such as gas, electricity and chemicals.</string>
+    <string name="afterpara5">Make sure your home is securely anchored to its foundation. Strengthen exterior features, such as porches, decks, sliding glass doors, canopies, carports and garage doors</string>
+
+    <string name="duringI">"Assembling an emergency preparedness kit. Creating a household evacuation plan that includes your pets. Staying informed about your community’s risk and response plans. Educating your family on how to use the Safe and Well website."</string>
+    <string name="duringpara1">DROP, COVER and HOLD ON!Move as little as possible - most injuries during earthquakes occur because of people moving around, falling and suffering sprains, fractures and head injuries. Try to protect your head and torso. If you are in bed, stay there, curl up and hold on, and cover your head. Stay indoors until the shaking stops and you are sure it is safe to exit. If you must leave a building after the shaking stops, use stairs rather than an elevator in case of aftershocks, power outages or other damage. Be aware that smoke alarms and sprinkler systems frequently go off in buildings during an earthquake, even if there is no fire. If you smell gas, get out of the house and move as far away as possible. Before you leave any building check to make sure that there is no debris from the building that could fall on you.</string>
+    <string name="duringpara2">"Find a clear spot and drop to the ground. Stay there until the shaking stops. Try to get as far away from buildings, power lines, trees, and streetlights as possible. If you're in a vehicle, pull over to a clear location and stop. Avoid bridges, overpasses and power lines if possible. Stay inside with your seatbelt fastened until the shaking stops. After the shaking has stopped, drive on carefully, avoiding bridges and ramps that may have been damaged. If a power line falls on your vehicle, do not get out. Wait for assistance. If you are in a mountainous area or near unstable slopes or cliffs, be alert for falling rocks and other debris as well as landslides."</string>
+
+    <string name="beforepara1">"Assembling an emergency preparedness kit. Creating a household evacuation plan that includes your pets. Staying informed about your community’s risk and response plans. Educating your family on how to use the Safe and Well website."</string>
+    <string name="beforepara2">"Talk about earthquakes with your family so that everyone knows what to do in case of an earthquake. Discussing ahead of time helps reduce fear, particularly for younger children. Check at your workplace and your children's schools and day care centers to learn about their earthquake emergency plans. Pick safe places in each room of your home, workplace and/or school. A safe place could be under a piece of furniture or against an interior wall away from windows, bookcases or tall furniture that could fall on you. Practice DROP, COVER and HOLD ON in each safe place. Make sure you have access to NOAA radio broadcasts: Find an online NOAA radio station. Purchase a battery-powered or hand-crank NOAA radio in the Red Cross Store. Keep a flashlight and any low-heeled shoes by each person’s bed."</string>
+    <string name="beforepara3">"Bolt and brace water heaters and gas appliances to wall studs. Have a professional install flexible fittings to avoid gas or water leaks. Do not hang heavy items, such as pictures and mirrors, near beds, couches and anywhere people sleep or sit. Install strong latches or bolts on cabinets. Large or heavy items should be closest to the floor. Learn how to shut off the gas valves in your home and keep a wrench handy for that purpose. Place large and heavy objects and breakable items (bottled foods, glass or china) on lower shelves. Anchor overhead lighting fixtures to joists. Anchor top-heavy, tall and freestanding furniture such as bookcases, china cabinets to wall studs to keep these from toppling over. Ask about home repair and strengthening tips for exterior features, such as porches, decks, sliding glass doors, canopies, carports and garage doors. Learn about your area’s seismic building standards and land use codes before you begin new construction. Have a professional make sure your home is securely anchored to its foundation, as well as strengthening tips for exterior features, such as porches, decks, sliding glass doors, canopies, carports and garage doors."</string>
+    <string name="title_activity_quake_map">Map</string>
+
+
+</resources>
