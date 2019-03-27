@@ -46,14 +46,14 @@ android {
         implementation 'com.github.MarcinOrlowski:fonty:2.2.0'
 
         implementation 'com.google.firebase:firebase-core:16.0.7'
-        implementation 'com.google.firebase:firebase-messaging:17.3.4'
-        implementation 'com.google.firebase:firebase-database:16.0.6'
-        implementation 'com.google.firebase:firebase-storage:16.0.5'
+        implementation 'com.google.firebase:firebase-messaging:17.4.0'
+        implementation 'com.google.firebase:firebase-database:16.1.0'
+        implementation 'com.google.firebase:firebase-storage:16.1.0'
         implementation 'com.google.code.gson:gson:2.8.5'
         implementation 'com.google.firebase:firebase-appindexing:17.1.0'
         implementation 'com.firebase:firebase-client-android:2.5.2'
 
-        implementation 'com.google.android.gms:play-services-maps:16.0.0'
+        implementation 'com.google.android.gms:play-services-maps:16.1.0'
 
         testImplementation 'junit:junit:4.12'
         implementation 'com.android.support.test:runner:1.0.2'
