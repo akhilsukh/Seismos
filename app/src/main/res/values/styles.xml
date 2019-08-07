@@ -50,5 +50,21 @@
         <item name="android:textColor">@color/colortext</item>
     </style>
 
+    <!--styles for fragments in prep activity-->
+    <style name="SubTitle" parent="Base.TextAppearance.AppCompat.Caption">
+        <item name="android:layout_marginBottom">6dp</item>
+        <item name="android:paddingHorizontal">24dp</item>
+        <item name="android:textColor">@color/colortext</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="SubCapt" parent="Base.TextAppearance.AppCompat.Caption">
+        <item name="android:layout_marginBottom">6dp</item>
+        <item name="android:paddingHorizontal">28dp</item>
+        <item name="android:textColor">@color/colortext</item>
+        <item name="android:textSize">13dp</item>
+    </style>
+
 
 </resources>

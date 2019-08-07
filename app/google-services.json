@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "552141852878",
+    "firebase_url": "https://earthquake-preparednessproject.firebaseio.com",
+    "project_id": "earthquake-preparednessproject",
+    "storage_bucket": "earthquake-preparednessproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:552141852878:android:455e0106a74fbef7",
+        "android_client_info": {
+          "package_name": "com.akhilsukh01.earthquakepreparednessproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "552141852878-gc1q630l5cjiqv1cqf7s7hnb7e8etmpm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.akhilsukh01.earthquakepreparednessproject",
+            "certificate_hash": "628e0a4bf23de802e288e90ff846f3a3e3831718"
+          }
+        },
+        {
+          "client_id": "552141852878-k8et41bdt8jebu205gm5mfki8v05s4e6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.akhilsukh01.earthquakepreparednessproject",
+            "certificate_hash": "34143c168c5f7681c6daac04f75af07d24cd735c"
+          }
+        },
+        {
+          "client_id": "552141852878-bupb8f58buv6tv29i1kaps8epva643q9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7thTBvjKH7iKgA9ovGkSYsKA83KOr0Mg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "552141852878-bupb8f58buv6tv29i1kaps8epva643q9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -50,7 +50,7 @@
                 android:orientation="vertical"
                 android:layout_marginBottom="2dp">
 
-                <android.support.v7.widget.CardView
+                <androidx.cardview.widget.CardView
                     android:id="@+id/mChecklist"
                     style="@style/CardHome"
                     app:cardBackgroundColor="@color/color2"
@@ -67,9 +67,9 @@
                         android:textColor="@color/colortext"
                         android:textSize="16dp"
                         android:textStyle="bold"/>
-                </android.support.v7.widget.CardView>
+                </androidx.cardview.widget.CardView>
 
-                <android.support.v7.widget.CardView
+                <androidx.cardview.widget.CardView
                     android:id="@+id/mInfo"
                     style="@style/CardHome"
                     app:cardBackgroundColor="@color/color2"
@@ -86,9 +86,9 @@
                         android:textColor="@color/colortext"
                         android:textSize="16dp"
                         android:textStyle="bold"/>
-                </android.support.v7.widget.CardView>
+                </androidx.cardview.widget.CardView>
 
-                <android.support.v7.widget.CardView
+                <androidx.cardview.widget.CardView
                     android:id="@+id/mAlerts"
                     style="@style/CardHome"
                     app:cardBackgroundColor="@color/color2"
@@ -105,12 +105,12 @@
                         android:textColor="@color/colortext"
                         android:textSize="16dp"
                         android:textStyle="bold"/>
-                </android.support.v7.widget.CardView>
+                </androidx.cardview.widget.CardView>
 
 
 
 
-                <android.support.v7.widget.CardView
+                <androidx.cardview.widget.CardView
                     android:id="@+id/mHistory"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -259,7 +259,7 @@
 
 
                     </TableLayout>
-                </android.support.v7.widget.CardView>
+                </androidx.cardview.widget.CardView>
 
             </LinearLayout>
 

@@ -1,12 +1,11 @@
 package com.akhilsukh01.earthquakepreparednessproject;
 
 import android.app.Activity;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Html;
 import android.text.Spanned;
 import android.text.method.LinkMovementMethod;
-import android.view.View;
 import android.view.Window;
 import android.widget.TextView;
 

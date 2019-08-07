@@ -1,10 +1,12 @@
 package com.akhilsukh01.earthquakepreparednessproject;
 
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.design.widget.BottomNavigationView;
-import android.support.v7.app.AppCompatActivity;
+import androidx.annotation.NonNull;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.MenuItem;
+
+import androidx.fragment.app.FragmentTransaction;
 
 public class PrepInfo extends AppCompatActivity {
 
@@ -18,42 +20,35 @@ public class PrepInfo extends AppCompatActivity {
                 case R.id.navigation_home:
                     setTitle("Home");
                     InfoBase fragment1 = new InfoBase();
-                    android.support.v4.app.FragmentTransaction fragmentTransaction1 = getSupportFragmentManager().beginTransaction();
-                    fragmentTransaction1.replace(R.id.content, fragment1, "FragmentName");
+                    FragmentTransaction fragmentTransaction1 = getSupportFragmentManager().beginTransaction();
+                    fragmentTransaction1.replace(R.id.content, fragment1, "Home");
                     fragmentTransaction1.commit();
                     return true;
 
                 case R.id.navigation_before:
                     setTitle("Before");
                     before fragment2 = new before();
-                    android.support.v4.app.FragmentTransaction fragmentTransaction2 = getSupportFragmentManager().beginTransaction();
-                    fragmentTransaction2.replace(R.id.content, fragment2, "FragmentName");
+                    FragmentTransaction fragmentTransaction2 = getSupportFragmentManager().beginTransaction();
+                    fragmentTransaction2.replace(R.id.content, fragment2, "Before");
                     fragmentTransaction2.commit();
                     return true;
 
                 case R.id.navigation_during:
                     setTitle("During");
                     during fragment3 = new during();
-                    android.support.v4.app.FragmentTransaction fragmentTransaction3 = getSupportFragmentManager().beginTransaction();
-                    fragmentTransaction3.replace(R.id.content, fragment3, "FragmentName");
+                    FragmentTransaction fragmentTransaction3 = getSupportFragmentManager().beginTransaction();
+                    fragmentTransaction3.replace(R.id.content, fragment3, "During");
                     fragmentTransaction3.commit();
                     return true;
 
                 case R.id.navigation_after:
                     setTitle("After");
                     after fragment4 = new after();
-                    android.support.v4.app.FragmentTransaction fragmentTransaction4 = getSupportFragmentManager().beginTransaction();
-                    fragmentTransaction4.replace(R.id.content, fragment4, "FragmentName");
+                    FragmentTransaction fragmentTransaction4 = getSupportFragmentManager().beginTransaction();
+                    fragmentTransaction4.replace(R.id.content, fragment4, "After");
                     fragmentTransaction4.commit();
                     return true;
 
-//                case R.id.navigation_contact:
-//                    setTitle("Contact");
-//                    contact fragment5 = new contact();
-//                    android.support.v4.app.FragmentTransaction fragmentTransaction5 = getSupportFragmentManager().beginTransaction();
-//                    fragmentTransaction5.replace(R.id.content, fragment5, "FragmentName");
-//                    fragmentTransaction5.commit();
-//                    return true;
             }
             return false;
         }
@@ -64,12 +59,12 @@ public class PrepInfo extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_prepinfo);
 
-        BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
+        BottomNavigationView navigation = findViewById(R.id.navigation);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
 
         setTitle("Home");
         InfoBase fragment1 = new InfoBase();
-        android.support.v4.app.FragmentTransaction fragmentTransaction1 = getSupportFragmentManager().beginTransaction();
+        FragmentTransaction fragmentTransaction1 = getSupportFragmentManager().beginTransaction();
         fragmentTransaction1.replace(R.id.content, fragment1, "FragmentName");
         fragmentTransaction1.commit();
     }

@@ -1,4 +1,6 @@
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,35 +9,22 @@
 
     <!-- TODO: Update blank fragment layout -->
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
-
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.0">
+            android:layout_height="match_parent">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
 
-                <android.support.v7.widget.CardView
+                <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:paddingLeft="14dp"
-                    android:paddingRight="14dp"
+                    android:padding="14dp"
+                    android:layout_margin="12dp"
+                    android:layout_marginBottom="40dp"
                     app:cardBackgroundColor="@color/color2"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
-                    android:layout_marginTop="12dp"
                     app:cardCornerRadius="8dp">
 
                     <LinearLayout
@@ -45,222 +34,97 @@
 
                         <TextView
                             android:id="@+id/textView30"
+                            android:text="Staying Safe After an Earthquake"
                             android:layout_width="match_parent"
-                            android:layout_height="21dp"
-                            android:layout_marginBottom="8dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="14dp"
                             android:layout_marginTop="12dp"
                             android:gravity="center"
-                            android:text="Staying Safe After an Earthquake"
                             android:textAppearance="@style/TextAppearance.AppCompat.Caption"
                             android:textColor="@color/colortext"
                             android:textSize="16dp"
-                            android:textStyle="bold"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent"
-                            app:layout_constraintVertical_bias="0.093" />
+                            android:textStyle="bold"/>
 
                         <TextView
                             android:id="@+id/textView15"
+                            android:text="If you do nothing else:"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginBottom="6dp"
-                            android:layout_marginTop="10dp"
-                            android:paddingLeft="28dp"
-                            android:text="If you do nothing else:"
-                            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
-                            android:textColor="@color/colortext"
-                            android:textSize="14dp"
-                            android:textStyle="bold"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent"
-                            app:layout_constraintVertical_bias="0.2" />
+                            style="@style/SubTitle"/>
 
                         <TextView
                             android:id="@+id/textView21"
+                            android:text="@string/afterpara1"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginBottom="8dp"
-                            android:layout_marginTop="0dp"
-                            android:paddingLeft="24dp"
-                            android:paddingRight="24dp"
-                            android:text="@string/afterpara1"
-                            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
-                            android:textColor="@color/colortext"
-                            android:textSize="13dp"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent"
-                            app:layout_constraintVertical_bias="0.114" />
+                            style="@style/SubCapt"/>
 
                         <TextView
                             android:id="@+id/textView33"
+                            android:text="Caring for yourself and loved ones"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginBottom="6dp"
-                            android:layout_marginTop="10dp"
-                            android:paddingLeft="28dp"
-                            android:text="Caring for yourself and loved ones"
-                            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
-                            android:textColor="@color/colortext"
-                            android:textSize="14dp"
-                            android:textStyle="bold"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent"
-                            app:layout_constraintVertical_bias="0.2" />
+                            style="@style/SubTitle"/>
 
                         <TextView
                             android:id="@+id/textView38"
+                            android:text="@string/afterpara2"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginBottom="8dp"
-                            android:layout_marginTop="0dp"
-                            android:paddingLeft="24dp"
-                            android:paddingRight="24dp"
-                            android:text="@string/afterpara2"
-                            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
-                            android:textColor="@color/colortext"
-                            android:textSize="13dp"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent"
-                            app:layout_constraintVertical_bias="0.114" />
+                            style="@style/SubCapt"/>
 
                         <TextView
                             android:id="@+id/textView25"
+                            android:text="Returning home safely"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginBottom="6dp"
-                            android:layout_marginTop="10dp"
-                            android:paddingLeft="28dp"
-                            android:text="Returning home safely"
-                            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
-                            android:textColor="@color/colortext"
-                            android:textSize="14dp"
-                            android:textStyle="bold"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent"
-                            app:layout_constraintVertical_bias="0.2" />
+                            style="@style/SubTitle"/>
 
                         <TextView
                             android:id="@+id/textView31"
+                            android:text="@string/afterpara3"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginBottom="8dp"
-                            android:layout_marginTop="0dp"
-                            android:paddingLeft="24dp"
-                            android:paddingRight="24dp"
-                            android:text="@string/afterpara3"
-                            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
-                            android:textColor="@color/colortext"
-                            android:textSize="13dp"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent"
-                            app:layout_constraintVertical_bias="0.114" />
+                            style="@style/SubCapt"/>
 
                         <TextView
                             android:id="@+id/textView27"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="6dp"
-                            android:layout_marginTop="10dp"
-                            android:paddingLeft="28dp"
                             android:text="Cleaning and repairing your home"
-                            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
-                            android:textColor="@color/colortext"
-                            android:textSize="14dp"
-                            android:textStyle="bold"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent"
-                            app:layout_constraintVertical_bias="0.2" />
-
-                        <TextView
-                            android:id="@+id/textView37"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginBottom="8dp"
-                            android:layout_marginTop="0dp"
-                            android:paddingLeft="24dp"
-                            android:paddingRight="24dp"
-                            android:text="@string/afterpara4"
-                            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
-                            android:textColor="@color/colortext"
-                            android:textSize="13dp"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent"
-                            app:layout_constraintVertical_bias="0.114" />
-
-                        <TextView
-                            android:id="@+id/textView11"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="6dp"
-                            android:layout_marginTop="10dp"
-                            android:paddingLeft="28dp"
-                            android:text="Ask a professional to:"
-                            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
-                            android:textColor="@color/colortext"
-                            android:textSize="14dp"
-                            android:textStyle="bold"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent"
-                            app:layout_constraintVertical_bias="0.2" />
+                            style="@style/SubTitle"/>
 
                         <TextView
                             android:id="@+id/textView23"
+                            android:text="@string/afterpara5"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="4dp"
                             android:layout_marginTop="0dp"
                             android:paddingLeft="24dp"
                             android:paddingRight="24dp"
-                            android:text="@string/afterpara5"
                             android:textAppearance="@style/TextAppearance.AppCompat.Caption"
                             android:textColor="@color/colortext"
-                            android:textSize="13dp"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent"
-                            app:layout_constraintVertical_bias="0.114" />
+                            android:textSize="13dp"/>
 
                         <ImageView
                             android:layout_width="match_parent"
-                            android:layout_height="114dp"
-                            android:layout_marginBottom="15dp"
-                            android:layout_marginTop="8dp"
-                            android:layout_marginHorizontal="10dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginVertical="6dp"
+                            android:layout_marginHorizontal="22dp"
                             android:src="@drawable/after1" />
-                    </LinearLayout>
-                </android.support.v7.widget.CardView>
 
-                <TextView
-                    android:id="@+id/textView10"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="50dp"
-                    android:text="" />
+                        <TextView
+                            android:id="@+id/textView37"
+                            android:text="@string/afterpara4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            style="@style/SubCapt"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
 
             </LinearLayout>
 
         </ScrollView>
     </LinearLayout>
-
-</android.support.constraint.ConstraintLayout>
