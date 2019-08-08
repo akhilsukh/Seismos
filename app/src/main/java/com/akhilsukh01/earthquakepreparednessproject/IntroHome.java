@@ -37,10 +37,6 @@ public class IntroHome extends Activity {
 
 
     public static TextView titleView;
-    public static TextView titleViewS;
-
-    Animation frombotton;
-    public RelativeLayout splash;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -68,12 +64,6 @@ public class IntroHome extends Activity {
         mag6 = findViewById(R.id.mag6);
 
         titleView = findViewById(R.id.titleView);
-        titleViewS = findViewById(R.id.titleViewS);
-        splash = findViewById(R.id.splash);
-
-
-
-
 
 //        Fonty
 //                .context(this)
@@ -85,9 +75,6 @@ public class IntroHome extends Activity {
 
         Typeface Light = Typeface.createFromAsset(getAssets(), "fonts/Montserrat-Light.ttf");
         titleView.setTypeface(Light);
-        titleViewS.setTypeface(Light);
-
-
 
         CardView mChecklist = (CardView) findViewById(R.id.mChecklist);
         mChecklist.setOnClickListener(new View.OnClickListener() {
@@ -126,23 +113,6 @@ public class IntroHome extends Activity {
                 }
             }
         });
-
-        final Handler handler = new Handler();
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                // Do something after 5s = 5000ms
-           }
-        }, 800);
-        frombotton = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.frombottom );
-        titleViewS.setAnimation(frombotton);
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                // Do something after 5s = 5000ms
-                splash.setVisibility(View.GONE);
-            }
-        }, 1800);
 
     }
 }
