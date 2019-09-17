@@ -7,7 +7,7 @@
     <color name="colorPrimaryold">#3F51B5</color>
     <color name="colorPrimaryDarkold">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="colorBack">#c3d2eb</color>
+    <color name="colorAqua">#c3d2eb</color>
     <color name="color1">#337AB7</color>
     <color name="color2">#292D48</color>
     <color name="color3">#9b9da1</color>
@@ -17,5 +17,5 @@
 
 
     <color name="cBlack">#000000</color>
-    <color name="colortext">#EEEEEE</color>
+    <color name="colortext">#F8F8F8</color>
 </resources>

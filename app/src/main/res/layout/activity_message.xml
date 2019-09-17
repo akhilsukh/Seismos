@@ -38,7 +38,7 @@
                             android:layout_height="21dp"
                             android:gravity="center"
                             android:layout_marginTop="12dp"
-                            android:text="Earthquake Alerts"
+                            android:text="Earthquake Alerts [BETA]"
                             android:textAppearance="@style/TextAppearance.AppCompat.Caption"
                             android:textColor="@color/colortext"
                             android:textSize="16dp"

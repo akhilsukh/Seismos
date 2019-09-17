@@ -7,7 +7,7 @@ android {
         config {
             keyAlias 'key0'
             keyPassword 'roshan2001'
-            storeFile file('D:\\Documents\\Apps\\EarthquakePreparednessProject\\EPPkey.jks')
+            storeFile file('C:\\Users\\akhil\\Documents\\Apps\\configKeys\\EPPkey.jks')
             storePassword 'roshan2001'
         }
     }
@@ -16,8 +16,8 @@ android {
         applicationId "com.akhilsukh01.earthquakepreparednessproject"
         minSdkVersion 22
         targetSdkVersion 29
-        versionCode 21
-        versionName "2.0.1"
+        versionCode 22
+        versionName "2.0.2"
 //        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         multiDexEnabled false
     }

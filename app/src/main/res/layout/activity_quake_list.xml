@@ -18,7 +18,7 @@
         <LinearLayout
             android:id="@+id/chart101"
             android:layout_width="match_parent"
-            android:paddingTop="4dp"
+            android:padding="4dp"
             android:orientation="horizontal"
             android:layout_gravity="center"
             android:gravity="center"
@@ -41,17 +41,17 @@
                     android:text="# of Earthquakes in the past 24 hrs"
                     android:textAppearance="@style/TextAppearance.AppCompat.Caption"
                     android:textColor="@color/colortext"
-                    android:textSize="16dp"/>
+                    android:textSize="14dp"/>
 
                 <TextView
                     android:id="@+id/total"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
+                    android:textStyle="bold"
                     android:layout_gravity="center"
                     android:layout_marginBottom="10dp"
                     android:text="..."
-                    android:textAppearance="@style/TextAppearance.AppCompat.Caption"
                     android:textColor="@color/colortext"
                     android:textSize="46dp"/>
 
@@ -74,17 +74,17 @@
                     android:text="Largest Earthquake in the past 24 hrs"
                     android:textAppearance="@style/TextAppearance.AppCompat.Caption"
                     android:textColor="@color/colortext"
-                    android:textSize="16dp"/>
+                    android:textSize="14dp"/>
 
                 <TextView
                     android:id="@+id/largest"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
+                    android:textStyle="bold"
                     android:layout_gravity="center"
                     android:layout_marginBottom="10dp"
                     android:text="..."
-                    android:textAppearance="@style/TextAppearance.AppCompat.Caption"
                     android:textColor="@color/colortext"
                     android:textSize="46dp"/>
 
@@ -108,12 +108,12 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="4dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:orientation="vertical"
-            android:layout_marginBottom="8dp"
             android:layout_height="wrap_content">
 
             <androidx.recyclerview.widget.RecyclerView
@@ -121,7 +121,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:paddingBottom="0dp"
                 tools:itemCount="34"
                 tools:listitem="@layout/recycler_view_item" />
 
@@ -132,44 +131,26 @@
                 android:gravity="center"
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"
-                android:hint="Last Updated: "
-                android:textStyle="bold"/>
-
-            <!--<Button-->
-                <!--android:id="@+id/toMap"-->
-                <!--android:layout_width="match_parent"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:text="Maps" />-->
-
-
-            <!--<TextView-->
-                <!--android:id="@+id/tester"-->
-                <!--android:layout_width="match_parent"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:layout_marginHorizontal="20dp"-->
-                <!--android:layout_marginBottom="10dp"-->
-                <!--android:layout_marginTop="10dp"-->
-                <!--android:gravity="center"-->
-                <!--android:hint="Testing"-->
-                <!--android:textStyle="bold" />-->
+                android:hint="Last Updated: "/>
 
         </LinearLayout>
     </ScrollView>
 
         <RelativeLayout
-            android:padding="16dp"
             android:layout_width="wrap_content"
+            android:padding="16dp"
             android:layout_height="wrap_content">
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/mapFab"
-            android:layout_width="64dp"
+            android:padding="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:padding="2dp"
             app:backgroundTint="@color/colortext"
-            android:src="@drawable/ic_public_black_24dp"
-            android:layout_height="64dp" />
+            android:elevation="0dp"
+            android:src="@drawable/ic_public_black_24dp"/>
 
         </RelativeLayout>
 
