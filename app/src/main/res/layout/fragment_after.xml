@@ -30,6 +30,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
+                        android:layout_margin="8dp"
                         android:orientation="vertical">
 
                         <TextView
@@ -37,13 +38,7 @@
                             android:text="Staying Safe After an Earthquake"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginBottom="14dp"
-                            android:layout_marginTop="12dp"
-                            android:gravity="center"
-                            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
-                            android:textColor="@color/colortext"
-                            android:textSize="16dp"
-                            android:textStyle="bold"/>
+                            style="@style/SubBold"/>
 
                         <TextView
                             android:id="@+id/textView15"
@@ -105,7 +100,7 @@
                             android:paddingRight="24dp"
                             android:textAppearance="@style/TextAppearance.AppCompat.Caption"
                             android:textColor="@color/colortext"
-                            android:textSize="13dp"/>
+                            android:textSize="13sp"/>
 
                         <ImageView
                             android:layout_width="match_parent"

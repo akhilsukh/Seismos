@@ -13,14 +13,13 @@
                 android:id="@+id/titleView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="start"
+                android:gravity="center"
+                android:text="SEISMOS"
+                android:textSize="34sp"
                 android:padding="10dp"
                 android:layout_marginBottom="6dp"
                 android:background="@color/color2"
-                android:gravity="center"
-                android:text="SEISMOS"
-                android:textColor="@color/colortext"
-                android:textSize="34dp" />
+                android:textColor="@color/colortext"/>
 
             <LinearLayout
                 android:padding="4dp"
@@ -40,12 +39,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Checklist"
-                        android:layout_gravity="center"
-                        android:padding="6dp"
-                        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
-                        android:textColor="@color/colortext"
-                        android:textSize="18dp"
-                        android:textStyle="bold"/>
+                        style="@style/SubBold"/>
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
@@ -59,12 +53,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Preparatory Information"
-                        android:layout_gravity="center"
-                        android:padding="6dp"
-                        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
-                        android:textColor="@color/colortext"
-                        android:textSize="18dp"
-                        android:textStyle="bold"/>
+                        style="@style/SubBold"/>
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
@@ -78,27 +67,21 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Earthquake Alerts"
-                        android:layout_gravity="center"
-                        android:padding="6dp"
-                        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
-                        android:textColor="@color/colortext"
-                        android:textSize="18dp"
-                        android:textStyle="bold"/>
+                        style="@style/SubBold"/>
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
                     android:id="@+id/mHistory"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
-                    android:layout_marginBottom="10dp"
-                    android:layout_marginTop="6dp"
                     app:cardBackgroundColor="@color/color2"
+                    style="@style/CardHome"
+                    android:layout_weight="0"
                     app:cardCornerRadius="12dp">
 
                     <LinearLayout
                         android:orientation="vertical"
+                        android:layout_margin="6dp"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent">
 
@@ -108,11 +91,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:text="Latest Earthquakes"
-                        android:paddingTop="16dp"
-                        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
-                        android:textColor="@color/colortext"
-                        android:textSize="18dp"
-                        android:textStyle="bold"/>
+                        style="@style/SubBold"/>
 
                     <TableLayout
                         android:id="@+id/mQuake"
